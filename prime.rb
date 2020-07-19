@@ -1,6 +1,10 @@
 def prime?(num)
-  if num < 4
+  if num < 0
+    return false
+  elsif num < 4
     return true
+  else
+
   end
 
 
@@ -13,8 +17,7 @@ def prime?(num)
     else
       if num % i == 1
         return false
-      else
-        return true
+
       end
     end
     i += 1
