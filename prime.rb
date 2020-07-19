@@ -1,4 +1,11 @@
 def prime?(num)
+  if num < 4
+    return false
+  end
+
+  
+
+  
   i = 2
   while i <= num
     if num / 2 == 0
