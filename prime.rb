@@ -3,9 +3,9 @@ def prime?(num)
     return false
   end
 
-  
 
-  
+
+
   i = 2
   while i <= num
     if num / 2 == 0
