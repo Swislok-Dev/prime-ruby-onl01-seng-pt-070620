@@ -1,6 +1,6 @@
 def prime?(num)
   if num < 4
-    return false
+    return true
   end
 
 
