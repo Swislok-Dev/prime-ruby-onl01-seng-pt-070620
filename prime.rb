@@ -1,16 +1,6 @@
 def prime?(num)
-  if num < 2
-    return false
-  else
-    i = 2
-    while i < num
-      if num % i > 1
-        return false
-      else
-        return true
-      end
-      i += 1
-    end
-
-  end
+  return false if num <= 1
+  squared = num * num
+  squared.to_i.downto(2).each {|i| return false if num % i == 0}
+  true
 end
