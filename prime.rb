@@ -4,7 +4,7 @@ def prime?(num)
     if num / 2 == 0
       return false
     else
-      if num % i == 0
+      if num % i == 1
         return false
       else
         return true
